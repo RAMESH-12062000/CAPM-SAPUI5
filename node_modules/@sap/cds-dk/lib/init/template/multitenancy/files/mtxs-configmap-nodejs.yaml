@@ -1,0 +1,12 @@
+# Please do not modify this file. This file may be overwritten.
+
+{{- $ := merge (dict "name" "srv" "deployment" .Values.srv ) . }}
+{{- $srvUrl := (include "cap.deploymentHostFull" $ )}}
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-mtxs-configmap"
+  namespace: "{{ .Release.Namespace }}"
+data:
+  SUBSCRIPTION_URL: {{ printf "https://${tenant_subdomain}-%s" $srvUrl }}

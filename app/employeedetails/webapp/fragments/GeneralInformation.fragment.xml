@@ -1,0 +1,39 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <form:SimpleForm
+        id="idEmployeeDetailsForm"
+        editable="false"
+        layout="ColumnLayout"
+        columnsM="2"
+        columnsL="3"
+        columnsXL="4"
+    >
+        <Label
+            id="idNameLabel"
+            text="Name"
+        />
+        <Text
+            id="idNameText"
+            text="{fName} {lName}"
+        />
+        <Label
+            id="idEmailLabel"
+            text="Email"
+        />
+        <Text
+            id="idEmailText"
+            text="{email}"
+        />
+        <Label
+            id="idPhoneLabel"
+            text="Phone"
+        />
+        <Text
+            id="idPhoneText"
+            text="{phone}"
+        />
+    </form:SimpleForm>
+</core:FragmentDefinition>

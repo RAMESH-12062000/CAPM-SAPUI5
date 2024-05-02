@@ -1,0 +1,49 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <form:SimpleForm
+        id="idSalaryForm"
+        editable="false"
+        layout="ColumnLayout"
+        columnsM="2"
+        columnsL="3"
+        columnsXL="4"
+        binding="{salary}"
+       
+    >
+        <Label
+            id="idCostToCompanyLabel"
+            text="CostToCompany"
+        />
+        <Text
+            id="idCostToCompanyText"
+            text="{costToCompany}"
+        />
+        <Label
+            id="idemployeePfLabel"
+            text="EmployeePf"
+        />
+        <Text
+            id="idemployeeText"
+            text="{employeePf}"
+        />
+        <Label
+            id="idNpsLabel"
+            text="NPS"
+        />
+        <Text
+            id="idNpsText"
+            text="{nps}"
+        />
+        <Label
+            id="idvpfLabel"
+            text="VPF"
+        />
+        <Text
+            id="idvfsText"
+            text="{vpf}"
+        />
+    </form:SimpleForm>
+</core:FragmentDefinition>

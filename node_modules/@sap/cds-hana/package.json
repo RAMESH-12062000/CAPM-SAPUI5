@@ -1,0 +1,39 @@
+{
+  "name": "@sap/cds-hana",
+  "version": "2.0.0",
+  "description": "SAP Cloud Application Programming Model - Database adapter for SAP HANA",
+  "homepage": "https://cap.cloud.sap/",
+  "keywords": [
+    "CAP",
+    "CDS"
+  ],
+  "author": "SAP SE (https://www.sap.com)",
+  "license": "SEE LICENSE",
+  "main": "index.js",
+  "files": [
+    "cds-plugin.js",
+    "index.js",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+    "hdb": ">=0.19.0"
+  },
+  "peerDependencies": {
+    "@sap/cds": ">=6.8"
+  },
+  "cds": {
+    "requires": {
+      "kinds": {
+        "sql": {
+          "[production]": {
+            "kind": "hana"
+          }
+        },
+        "hana": {
+          "impl": "@sap/cds-hana"
+        }
+      },
+      "db": "sql"
+    }
+  }
+}

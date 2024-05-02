@@ -1,0 +1,67 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+>
+    <Table
+        id="idEmployeeAddressTable"
+        alternateRowColors="true"
+        items="{address}"
+    >
+        <columns>
+            <Column id="idCityColumn">
+                <Title
+                    id="idCityColumnHeader"
+                    text="City"
+                />
+            </Column>
+            <Column id="idAddressColumn">
+                <Title
+                    id="idAddressColumnHeader"
+                    text="Address"
+                />
+            </Column>
+            <Column id="idPincodeColumn">
+                <Title
+                    id="idPincodeColumnHeader"
+                    text="Pincode"
+                />
+            </Column>
+            <Column id="idStreetColumn">
+                <Title
+                    id="idStreetColumnHeader"
+                    text="Street"
+                />
+            </Column>
+            <Column id="idLandmarkColumn">
+                <Title
+                    id="idLandmarkColumnHeader"
+                    text="Landmark"
+                />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem id="idEmployeeAddressColumnList">
+                <Text
+                    id="idCityColumnValue"
+                    text="{city}"
+                />
+                <Text
+                    id="idAddressColumnValue"
+                    text="{address}"
+                />
+                <Text
+                    id="idPinCodeColumnValue"
+                    text="{pincode}"
+                />
+                <Text
+                    id="idStreetColumnValue"
+                    text="{street}"
+                />
+                <Text
+                    id="idLandmarkColumnValue"
+                    text="{landmark}"
+                />
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

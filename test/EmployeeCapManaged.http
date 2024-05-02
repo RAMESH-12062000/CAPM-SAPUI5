@@ -1,0 +1,25 @@
+@AdminCredentials= Basic YWRtaW5Ac2FwLmNvbTpJbml0aWFs
+@UserCredentials= Basic dXNlckBzYXAuY29tOkluaXRpYWw=
+
+### Get Employees For Admin
+GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+Authorization: {{AdminCredentials}}
+
+### Get Employees For User
+GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+Authorization: {{UserCredentials}}
+
+### Get Employees For Admin
+POST http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+Authorization: {{AdminCredentials}}
+Content-Type: application/json
+
+    {
+      "fName": "John",
+      "lName": "Doe",
+      "gender": "Male",
+      "DOB": "1990-02-01",
+      "contractStarted": "2012-03-11",
+      "email": "JohnDoe1@abc.com",
+      "phone": "8512543279"
+    }

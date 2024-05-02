@@ -1,0 +1,20 @@
+# Please do not modify this file. This file may be overwritten.
+
+{{- $approuterDeployment := .Values.approuter }}
+{{- $ := merge (dict "name" "approuter" "deployment" .Values.approuter ) . }}
+{{- $approuterUrl := (include "cap.deploymentHostFull" $ )}}
+
+{{- $sidecarDeployment := .Values.sidecar }}
+{{- $ = merge (dict "name" "sidecar" "deployment" .Values.sidecar ) . }}
+{{- $sidecarUrl := (include "cap.deploymentHostFull" $ )}}
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-mtxs-configmap"
+  namespace: "{{ .Release.Namespace }}"
+data:
+  CDS_MULTITENANCY_APPUI_TENANTSEPARATOR: "-"
+  CDS_MULTITENANCY_APPUI_URL: {{ printf "https://%s" $approuterUrl }}
+  CDS_MULTITENANCY_MTXS_ENABLED: "true"
+  CDS_MULTITENANCY_SIDECAR_URL: {{ printf "https://%s" $sidecarUrl }}

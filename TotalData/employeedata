@@ -1,0 +1,936 @@
+{
+    "@odata.context": "$metadata#Employee(address(),salary(),department(),designation())",
+    "value": [
+        {
+            "ID": "144526fd-db7a-43e6-a0aa-63a1e9479ccb",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Darika",
+            "lName": "Madan",
+            "gender": "Female",
+            "DOB": "1984-01-01",
+            "age": 0,
+            "contractStarted": "2006-02-05",
+            "email": "Darika.Madan@abc.com",
+            "phone": "8798098767",
+            "salary_ID": "5bc6fb7a-4a95-4dff-b398-9eb3ea21b6f7",
+            "department_ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+            "designation_ID": "b7a59886-16d0-47b3-a356-04dc932d0926",
+            "address": [
+                {
+                    "ID": "2a7257cd-9d74-4806-999b-b7116fe588fe",
+                    "city": "Gurugram",
+                    "address": "DLF Phase 2",
+                    "pincode": 122022,
+                    "street": "Sector 25",
+                    "landmark": "DLF Pase2",
+                    "employee_ID": "144526fd-db7a-43e6-a0aa-63a1e9479ccb"
+                }
+            ],
+            "salary": {
+                "ID": "5bc6fb7a-4a95-4dff-b398-9eb3ea21b6f7",
+                "costToCompany": 900000.87,
+                "employeePf": 1000.9,
+                "employerPf": 1000.9,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+                "name": "SX/BSV-IF3",
+                "description": "SX/BSV-IF3",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "b7a59886-16d0-47b3-a356-04dc932d0926",
+                "name": "Senior Consultant",
+                "description": "Senior Consultant",
+                "level": "32"
+            }
+        },
+        {
+            "ID": "1787b9c5-42cd-4115-8360-829a19028f34",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Minakshi",
+            "lName": "Ram",
+            "gender": "Female",
+            "DOB": "1990-04-02",
+            "age": 0,
+            "contractStarted": "2012-08-08",
+            "email": "Minakshi.Ram@xyz.com",
+            "phone": "9860983218",
+            "salary_ID": "785d7097-ddf3-46a3-9c07-ff1cc13fca1a",
+            "department_ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+            "designation_ID": "d516bea4-32bc-4b35-9d9b-afbbbf1ab021",
+            "address": [
+                {
+                    "ID": "6957f2f9-3a1e-4922-8f92-033e4dd09577",
+                    "city": "Chennai",
+                    "address": "Anna Nagar East",
+                    "pincode": 600102,
+                    "street": "Anna Nagar East",
+                    "landmark": "Chennai",
+                    "employee_ID": "1787b9c5-42cd-4115-8360-829a19028f34"
+                }
+            ],
+            "salary": {
+                "ID": "785d7097-ddf3-46a3-9c07-ff1cc13fca1a",
+                "costToCompany": 765543.87,
+                "employeePf": 5674.76,
+                "employerPf": 5674.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+                "name": "SX/BSV-ES6",
+                "description": "SX/BSV-ES6",
+                "headCount": 23
+            },
+            "designation": {
+                "ID": "d516bea4-32bc-4b35-9d9b-afbbbf1ab021",
+                "name": "Senior Software Engineer",
+                "description": "Senior Software Engineer",
+                "level": "22"
+            }
+        },
+        {
+            "ID": "1d1e41ac-2a7d-4093-9fd4-4e1a628d4a9b",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Asmita",
+            "lName": "Shenoy",
+            "gender": "Female",
+            "DOB": "1992-01-18",
+            "age": 0,
+            "contractStarted": "2014-02-18",
+            "email": "Asmita.Shenoy@xyz.com",
+            "phone": "8976543289",
+            "salary_ID": "1edd939a-805d-47ed-a377-52ca636b0ac8",
+            "department_ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+            "designation_ID": "48712b4c-fcb3-499a-ad0b-bd4d08e580f9",
+            "address": [
+                {
+                    "ID": "ee49e093-45e2-4c1a-8327-e59c1442bd42",
+                    "city": "Delhi",
+                    "address": "Ansari Road",
+                    "pincode": 110002,
+                    "street": "Ansari Road",
+                    "landmark": "Ansari Road",
+                    "employee_ID": "1d1e41ac-2a7d-4093-9fd4-4e1a628d4a9b"
+                }
+            ],
+            "salary": {
+                "ID": "1edd939a-805d-47ed-a377-52ca636b0ac8",
+                "costToCompany": 500000.89,
+                "employeePf": 2365.76,
+                "employerPf": 2365.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+                "name": "SX/BSV-IF3",
+                "description": "SX/BSV-IF3",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "48712b4c-fcb3-499a-ad0b-bd4d08e580f9",
+                "name": "Architect",
+                "description": "Architect",
+                "level": "51"
+            }
+        },
+        {
+            "ID": "2239b1c7-acb3-42d1-b8af-8fd608446f92",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Akhil",
+            "lName": "Shanker",
+            "gender": "Male",
+            "DOB": "1996-07-23",
+            "age": 0,
+            "contractStarted": "2018-09-20",
+            "email": "Akhil.Shanker@xyz.com",
+            "phone": "9870653654",
+            "salary_ID": "1e0a262e-26a7-4af1-a911-23577687cfb9",
+            "department_ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+            "designation_ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+            "address": [
+                {
+                    "ID": "da28dad3-41cd-4c1c-b2b6-1048ec923fbf",
+                    "city": "UttarPradesh",
+                    "address": "Amaharpatti Uttar Ballia",
+                    "pincode": 221712,
+                    "street": "UP",
+                    "landmark": "UP",
+                    "employee_ID": "2239b1c7-acb3-42d1-b8af-8fd608446f92"
+                }
+            ],
+            "salary": {
+                "ID": "1e0a262e-26a7-4af1-a911-23577687cfb9",
+                "costToCompany": 123423.87,
+                "employeePf": 6754.87,
+                "employerPf": 6754.87,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+                "name": "SX/BSV-ES6",
+                "description": "SX/BSV-ES6",
+                "headCount": 23
+            },
+            "designation": {
+                "ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+                "name": "Associate",
+                "description": "Associate",
+                "level": "20"
+            }
+        },
+        {
+            "ID": "3342e4d1-7ea2-4720-9fbb-bc4e256763f5",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Kamala",
+            "lName": "Trivedi",
+            "gender": "Female",
+            "DOB": "1989-01-23",
+            "age": 0,
+            "contractStarted": "2011-09-08",
+            "email": "Kamala.Trivedi@abc.com",
+            "phone": "6548798765",
+            "salary_ID": "e0c93cf5-4a02-479b-a5b3-eb0bf6ceb8e4",
+            "department_ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+            "designation_ID": "a029382f-6532-4089-9b3d-eefe54f0fa89",
+            "address": [
+                {
+                    "ID": "da6f309a-1240-42e1-ac00-3dc5607b5bf3",
+                    "city": "Bengalore",
+                    "address": "Kundalahalli Gate",
+                    "pincode": 560037,
+                    "street": "Whitefield",
+                    "landmark": null,
+                    "employee_ID": "3342e4d1-7ea2-4720-9fbb-bc4e256763f5"
+                }
+            ],
+            "salary": {
+                "ID": "e0c93cf5-4a02-479b-a5b3-eb0bf6ceb8e4",
+                "costToCompany": 500000.89,
+                "employeePf": 2365.76,
+                "employerPf": 2365.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+                "name": "SDS/ECE-CE",
+                "description": "COE Team",
+                "headCount": 20
+            },
+            "designation": {
+                "ID": "a029382f-6532-4089-9b3d-eefe54f0fa89",
+                "name": "Senior Architect",
+                "description": "Senior Architect",
+                "level": "52"
+            }
+        },
+        {
+            "ID": "3fa6821e-c701-48ab-bea1-57a0fee7e94c",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Abhay",
+            "lName": "Sabharwal",
+            "gender": "Male",
+            "DOB": "1992-01-26",
+            "age": 0,
+            "contractStarted": "2014-11-23",
+            "email": "Abhay.Sabharwal@abc.com",
+            "phone": "9845764534",
+            "salary_ID": "3b85fc31-9207-420d-b678-320da7ee20a9",
+            "department_ID": "7249cd09-4328-425c-8308-6adc5f8464cb",
+            "designation_ID": "61c00b00-8cfe-41e3-85c3-578a6a60b271",
+            "address": [
+                {
+                    "ID": "a6237ed5-5f8e-4b41-a6b1-be9255fa403b",
+                    "city": "Bangalore",
+                    "address": "C.V.raman nagar",
+                    "pincode": 560093,
+                    "street": "Bangalore",
+                    "landmark": "Bangalore",
+                    "employee_ID": "3fa6821e-c701-48ab-bea1-57a0fee7e94c"
+                }
+            ],
+            "salary": {
+                "ID": "3b85fc31-9207-420d-b678-320da7ee20a9",
+                "costToCompany": 123423.87,
+                "employeePf": 6754.87,
+                "employerPf": 6754.87,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "7249cd09-4328-425c-8308-6adc5f8464cb",
+                "name": "BD/SXI4",
+                "description": "BD/SXI4",
+                "headCount": 33
+            },
+            "designation": {
+                "ID": "61c00b00-8cfe-41e3-85c3-578a6a60b271",
+                "name": "Lead",
+                "description": "Lead",
+                "level": "23"
+            }
+        },
+        {
+            "ID": "429fc5eb-d7eb-4824-85c4-221026c60ddb",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Ryka",
+            "lName": "Mital",
+            "gender": "Female",
+            "DOB": "1990-01-01",
+            "age": 0,
+            "contractStarted": "2012-03-01",
+            "email": "Ryka.Mital@xyz.com",
+            "phone": "9876754326",
+            "salary_ID": "66c8f440-d3c9-4565-ba4d-d37086b47873",
+            "department_ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+            "designation_ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+            "address": [
+                {
+                    "ID": "4b327246-1c33-4195-908c-fed51ba79349",
+                    "city": "Bngalore",
+                    "address": "Neeladri Road Electronic City",
+                    "pincode": 560100,
+                    "street": "Neeladri Road",
+                    "landmark": null,
+                    "employee_ID": "429fc5eb-d7eb-4824-85c4-221026c60ddb"
+                }
+            ],
+            "salary": {
+                "ID": "66c8f440-d3c9-4565-ba4d-d37086b47873",
+                "costToCompany": 100000,
+                "employeePf": 4565.76,
+                "employerPf": 4565.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+                "name": "SDS/ECE-CE",
+                "description": "COE Team",
+                "headCount": 20
+            },
+            "designation": {
+                "ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+                "name": "Associate",
+                "description": "Associate",
+                "level": "20"
+            }
+        },
+        {
+            "ID": "455b744d-8e33-4ca5-ada1-91ce6c3447bc",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Chiranjivi",
+            "lName": "Seshadri",
+            "gender": "Male",
+            "DOB": "1990-02-01",
+            "age": 0,
+            "contractStarted": "2012-03-11",
+            "email": "Chiranjivi.Seshadri@abc.com",
+            "phone": "8564543278",
+            "salary_ID": "f64caecb-d699-450f-a8ba-47eef0e42abc",
+            "department_ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+            "designation_ID": "27e7121c-2860-4b1c-915c-9f46b2b4b95f",
+            "address": [
+                {
+                    "ID": "6df82e3a-843a-4c73-82c8-732ebd7147f0",
+                    "city": "Gurugram",
+                    "address": "DLF Phase 1 Sector 26",
+                    "pincode": 122002,
+                    "street": "Sector 26",
+                    "landmark": "DLF Phase 1",
+                    "employee_ID": "455b744d-8e33-4ca5-ada1-91ce6c3447bc"
+                }
+            ],
+            "salary": {
+                "ID": "f64caecb-d699-450f-a8ba-47eef0e42abc",
+                "costToCompany": 200000,
+                "employeePf": 2345.76,
+                "employerPf": 2345.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+                "name": "SX/BSV-ES6",
+                "description": "SX/BSV-ES6",
+                "headCount": 23
+            },
+            "designation": {
+                "ID": "27e7121c-2860-4b1c-915c-9f46b2b4b95f",
+                "name": "Software developer",
+                "description": "Software developer",
+                "level": "21"
+            }
+        },
+        {
+            "ID": "5f6de571-f161-4c40-9b12-def023bfd14f",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Haiya",
+            "lName": "Luthra",
+            "gender": "Female",
+            "DOB": "1991-03-12",
+            "age": 0,
+            "contractStarted": "2013-07-17",
+            "email": "Haiya.Luthra@abc.com",
+            "phone": "9850998565",
+            "salary_ID": "8c304426-e2fd-4e0f-9c20-344d0f5cc3be",
+            "department_ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+            "designation_ID": "d516bea4-32bc-4b35-9d9b-afbbbf1ab021",
+            "address": [
+                {
+                    "ID": "a776c8b3-6854-4fbe-a50a-598a474523ce",
+                    "city": "Bangalore",
+                    "address": "Jigani Banerghatta Road",
+                    "pincode": 560105,
+                    "street": "Jigani",
+                    "landmark": "DLF",
+                    "employee_ID": "5f6de571-f161-4c40-9b12-def023bfd14f"
+                }
+            ],
+            "salary": {
+                "ID": "8c304426-e2fd-4e0f-9c20-344d0f5cc3be",
+                "costToCompany": 654743.98,
+                "employeePf": 9876.78,
+                "employerPf": 9876.78,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+                "name": "SDS/ECE-CE",
+                "description": "COE Team",
+                "headCount": 20
+            },
+            "designation": {
+                "ID": "d516bea4-32bc-4b35-9d9b-afbbbf1ab021",
+                "name": "Senior Software Engineer",
+                "description": "Senior Software Engineer",
+                "level": "22"
+            }
+        },
+        {
+            "ID": "643ec8c0-b128-4af5-8a27-3c9d261fed10",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Shresth",
+            "lName": "Majumdar",
+            "gender": "Male",
+            "DOB": "1987-01-01",
+            "age": 0,
+            "contractStarted": "2009-10-16",
+            "email": "Shresth.Majumdar@abc.com",
+            "phone": "9065754376",
+            "salary_ID": "97475e75-ecfd-49a2-821f-6795807cec99",
+            "department_ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+            "designation_ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+            "address": [
+                {
+                    "ID": "76705a7a-c35b-4441-88ed-fc9956b04fa8",
+                    "city": "Delhi",
+                    "address": "New Delhi G P O",
+                    "pincode": 110001,
+                    "street": "GPO",
+                    "landmark": "GPO",
+                    "employee_ID": "643ec8c0-b128-4af5-8a27-3c9d261fed10"
+                }
+            ],
+            "salary": {
+                "ID": "97475e75-ecfd-49a2-821f-6795807cec99",
+                "costToCompany": 300000,
+                "employeePf": 6576.87,
+                "employerPf": 6576.87,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+                "name": "SX/BSV-ES6",
+                "description": "SX/BSV-ES6",
+                "headCount": 23
+            },
+            "designation": {
+                "ID": "c5751e74-ef39-4135-a111-eb4b1b4d7f9a",
+                "name": "Associate",
+                "description": "Associate",
+                "level": "20"
+            }
+        },
+        {
+            "ID": "b342ec2d-83cb-4338-9327-51269aca44d8",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Diya",
+            "lName": "Bhagat",
+            "gender": "Female",
+            "DOB": "1989-07-05",
+            "age": 0,
+            "contractStarted": "2011-03-05",
+            "email": "Diya.Bhagat@abc.com",
+            "phone": "9870987654",
+            "salary_ID": "525e41b4-e5bd-43e6-9c95-a1dc7e3d8d41",
+            "department_ID": "b4ec49cd-6dc5-43e6-a096-7ba34d385e79",
+            "designation_ID": "eddc4cf6-0db8-449d-a42e-4bad6c403615",
+            "address": [
+                {
+                    "ID": "c8e2bb9e-5a54-40d0-9e04-5cd9b0a41fc1",
+                    "city": "Chennai",
+                    "address": "Chengalpattu",
+                    "pincode": 603001,
+                    "street": "Chengalpattu",
+                    "landmark": "Chengalpattu",
+                    "employee_ID": "b342ec2d-83cb-4338-9327-51269aca44d8"
+                }
+            ],
+            "salary": {
+                "ID": "525e41b4-e5bd-43e6-9c95-a1dc7e3d8d41",
+                "costToCompany": 765543.87,
+                "employeePf": 5674.76,
+                "employerPf": 5674.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "b4ec49cd-6dc5-43e6-a096-7ba34d385e79",
+                "name": "BD/XST3",
+                "description": "BD/XST3",
+                "headCount": 30
+            },
+            "designation": {
+                "ID": "eddc4cf6-0db8-449d-a42e-4bad6c403615",
+                "name": "Senior Manager",
+                "description": "Senior Manager",
+                "level": "42"
+            }
+        },
+        {
+            "ID": "b48a17aa-0b57-4d35-923a-5b47582889d9",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Kanta",
+            "lName": "Datta",
+            "gender": "Female",
+            "DOB": "1994-01-24",
+            "age": 0,
+            "contractStarted": "2016-09-07",
+            "email": "Kanta.Datta@xyz.com",
+            "phone": "6587987865",
+            "salary_ID": "46714704-fc16-4c1e-9bf6-f500920133ae",
+            "department_ID": "f8c28124-8fa6-464f-b2cd-41c689dfc075",
+            "designation_ID": "5c4cd425-e2db-4efd-bf8a-28858cedfa24",
+            "address": [
+                {
+                    "ID": "bc3c23b3-383a-4980-a81e-fb22d74518f7",
+                    "city": "Delhi",
+                    "address": "Ajmeri Gate Extension",
+                    "pincode": 110002,
+                    "street": "Ajmeri Gate Extensio",
+                    "landmark": "Ajmeri Gate Extensio",
+                    "employee_ID": "b48a17aa-0b57-4d35-923a-5b47582889d9"
+                }
+            ],
+            "salary": {
+                "ID": "46714704-fc16-4c1e-9bf6-f500920133ae",
+                "costToCompany": 200000,
+                "employeePf": 2345.76,
+                "employerPf": 2345.76,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "f8c28124-8fa6-464f-b2cd-41c689dfc075",
+                "name": "BGSW/HRL-BP",
+                "description": "BGSW/HRL-BP",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "5c4cd425-e2db-4efd-bf8a-28858cedfa24",
+                "name": "Delivery Head",
+                "description": "Delivery Head",
+                "level": "91"
+            }
+        },
+        {
+            "ID": "b84e92d9-53e7-4297-9b57-14db18665925",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Sarita",
+            "lName": "Natt",
+            "gender": "Female",
+            "DOB": "1987-02-23",
+            "age": 0,
+            "contractStarted": "2009-05-20",
+            "email": "Sarita.Natt@xyz.com",
+            "phone": "7685439876",
+            "salary_ID": "64f98a19-c31e-4036-98e2-570cb3d6aef6",
+            "department_ID": "f8c28124-8fa6-464f-b2cd-41c689dfc075",
+            "designation_ID": "d94bd7b7-3934-4e16-a553-fc7691e38231",
+            "address": [
+                {
+                    "ID": "adb6a4e2-e972-43d6-8b1b-85fd1aac3314",
+                    "city": "Bangalore",
+                    "address": "SLV PG Bommanahalli",
+                    "pincode": 560066,
+                    "street": "Bommanahalli",
+                    "landmark": null,
+                    "employee_ID": "b84e92d9-53e7-4297-9b57-14db18665925"
+                }
+            ],
+            "salary": {
+                "ID": "64f98a19-c31e-4036-98e2-570cb3d6aef6",
+                "costToCompany": 800000.87,
+                "employeePf": 9876.98,
+                "employerPf": 9876.98,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "f8c28124-8fa6-464f-b2cd-41c689dfc075",
+                "name": "BGSW/HRL-BP",
+                "description": "BGSW/HRL-BP",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "d94bd7b7-3934-4e16-a553-fc7691e38231",
+                "name": "Consultant",
+                "description": "Consultant",
+                "level": "31"
+            }
+        },
+        {
+            "ID": "ba9086e5-96d4-4177-9459-a5bf4cd0a05c",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Jayesh",
+            "lName": "Ramesh",
+            "gender": "Male",
+            "DOB": "1992-10-23",
+            "age": 0,
+            "contractStarted": "2014-11-13",
+            "email": "Jayesh.Ramesh@xyz.com",
+            "phone": "8976897654",
+            "salary_ID": "ab61e2ea-1386-4c60-bd22-c65f8c8bc5e0",
+            "department_ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+            "designation_ID": "a44b6eed-4d75-44a0-b892-34762a885be4",
+            "address": [
+                {
+                    "ID": "f29463b0-2238-45c1-8729-9987802555d0",
+                    "city": "Kolkata",
+                    "address": "A.J.c.bose road",
+                    "pincode": 700020,
+                    "street": "Kolkata",
+                    "landmark": "Kolkata",
+                    "employee_ID": "ba9086e5-96d4-4177-9459-a5bf4cd0a05c"
+                }
+            ],
+            "salary": {
+                "ID": "ab61e2ea-1386-4c60-bd22-c65f8c8bc5e0",
+                "costToCompany": 300000,
+                "employeePf": 6576.87,
+                "employerPf": 6576.87,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+                "name": "SX/BSV-IF3",
+                "description": "SX/BSV-IF3",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "a44b6eed-4d75-44a0-b892-34762a885be4",
+                "name": "Assistant Manager",
+                "description": "Assistant Manager",
+                "level": "41"
+            }
+        },
+        {
+            "ID": "c1fbef5f-8771-4c77-9f26-219470eb8935",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Samarth",
+            "lName": "Joshi",
+            "gender": "Male",
+            "DOB": "1985-01-09",
+            "age": 0,
+            "contractStarted": "2007-07-17",
+            "email": "Samarth.Joshi@xyz.com",
+            "phone": "9878654532",
+            "salary_ID": "6d88f481-d17d-42e4-b675-5e9a2a13ed85",
+            "department_ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+            "designation_ID": "27e7121c-2860-4b1c-915c-9f46b2b4b95f",
+            "address": [
+                {
+                    "ID": "b54d4898-cf6c-4b96-9afc-ea09fa263672",
+                    "city": "Noida",
+                    "address": "NOIDA SECTOR 55\tNoida",
+                    "pincode": 201307,
+                    "street": "Noida",
+                    "landmark": "Noida",
+                    "employee_ID": "c1fbef5f-8771-4c77-9f26-219470eb8935"
+                }
+            ],
+            "salary": {
+                "ID": "6d88f481-d17d-42e4-b675-5e9a2a13ed85",
+                "costToCompany": 400000,
+                "employeePf": 3432.98,
+                "employerPf": 3432.98,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+                "name": "SDS/ECE-CE",
+                "description": "COE Team",
+                "headCount": 20
+            },
+            "designation": {
+                "ID": "27e7121c-2860-4b1c-915c-9f46b2b4b95f",
+                "name": "Software developer",
+                "description": "Software developer",
+                "level": "21"
+            }
+        },
+        {
+            "ID": "d32c4f6d-fbd7-409b-b6e4-9dfef80e43c4",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Abhilash",
+            "lName": "Sridhar",
+            "gender": "Male",
+            "DOB": "1990-05-24",
+            "age": 0,
+            "contractStarted": "2012-10-24",
+            "email": "Abhilash.Sridhar@abc.com",
+            "phone": "9876543217",
+            "salary_ID": "775c9d44-d700-405b-b05c-594dd2785ab6",
+            "department_ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+            "designation_ID": "61c00b00-8cfe-41e3-85c3-578a6a60b271",
+            "address": [
+                {
+                    "ID": "daa31abb-dfd2-4bf7-b186-d87a19fae1ea",
+                    "city": "Hyderabad",
+                    "address": "Chandanagar",
+                    "pincode": 500050,
+                    "street": "Chandanagar",
+                    "landmark": null,
+                    "employee_ID": "d32c4f6d-fbd7-409b-b6e4-9dfef80e43c4"
+                }
+            ],
+            "salary": {
+                "ID": "775c9d44-d700-405b-b05c-594dd2785ab6",
+                "costToCompany": 654743.98,
+                "employeePf": 9876.78,
+                "employerPf": 9876.78,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "1a2326ad-9443-4b2a-93fa-b6fb2f4f00b3",
+                "name": "SX/BSV-IF3",
+                "description": "SX/BSV-IF3",
+                "headCount": 25
+            },
+            "designation": {
+                "ID": "61c00b00-8cfe-41e3-85c3-578a6a60b271",
+                "name": "Lead",
+                "description": "Lead",
+                "level": "23"
+            }
+        },
+        {
+            "ID": "e308aa5e-99e4-46f5-b0f8-7931a8becbde",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Dinesh",
+            "lName": "Pradhan",
+            "gender": "Male",
+            "DOB": "1986-02-14",
+            "age": 0,
+            "contractStarted": "2008-12-17",
+            "email": "Dinesh.Pradhan@abc.com",
+            "phone": "9876345678",
+            "salary_ID": "9cd9fb2b-b26b-4b6b-9454-c45f8819f2f6",
+            "department_ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+            "designation_ID": "d94bd7b7-3934-4e16-a553-fc7691e38231",
+            "address": [
+                {
+                    "ID": "3e5261ff-d596-429c-a631-bc4705f23c03",
+                    "city": "Kolkata",
+                    "address": "Abinash Chaowdhury lane",
+                    "pincode": 700046,
+                    "street": "Kolkata",
+                    "landmark": "Kolkata",
+                    "employee_ID": "e308aa5e-99e4-46f5-b0f8-7931a8becbde"
+                }
+            ],
+            "salary": {
+                "ID": "9cd9fb2b-b26b-4b6b-9454-c45f8819f2f6",
+                "costToCompany": 700000.56,
+                "employeePf": 8765.56,
+                "employerPf": 8765.56,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "a3c85a0c-6073-4c7f-8468-1f3dd79bb8de",
+                "name": "SDS/ECE-CE",
+                "description": "COE Team",
+                "headCount": 20
+            },
+            "designation": {
+                "ID": "d94bd7b7-3934-4e16-a553-fc7691e38231",
+                "name": "Consultant",
+                "description": "Consultant",
+                "level": "31"
+            }
+        },
+        {
+            "ID": "ef93e5fe-55a5-48db-b84d-68ca1cd39f20",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Darsh",
+            "lName": "Muni",
+            "gender": "Male",
+            "DOB": "1993-11-03",
+            "age": 0,
+            "contractStarted": "2015-12-13",
+            "email": "Darsh.Muni@xyz.com",
+            "phone": "8987676567",
+            "salary_ID": "a4a7ee55-fc55-46fb-9166-ccff5411f80e",
+            "department_ID": "35a81ef9-42a1-4546-ad6e-c8451f701bbf",
+            "designation_ID": "5c4cd425-e2db-4efd-bf8a-28858cedfa24",
+            "address": [
+                {
+                    "ID": "d6b7006f-cdc5-42e7-a747-b228d312f40c",
+                    "city": "Bangalore",
+                    "address": "Prestige Shantiniketan",
+                    "pincode": 560037,
+                    "street": "Whitefield",
+                    "landmark": null,
+                    "employee_ID": "ef93e5fe-55a5-48db-b84d-68ca1cd39f20"
+                }
+            ],
+            "salary": {
+                "ID": "a4a7ee55-fc55-46fb-9166-ccff5411f80e",
+                "costToCompany": 400000,
+                "employeePf": 3432.98,
+                "employerPf": 3432.98,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "35a81ef9-42a1-4546-ad6e-c8451f701bbf",
+                "name": "SDS/PJ-ECE-CE",
+                "description": "COE Team",
+                "headCount": 12
+            },
+            "designation": {
+                "ID": "5c4cd425-e2db-4efd-bf8a-28858cedfa24",
+                "name": "Delivery Head",
+                "description": "Delivery Head",
+                "level": "91"
+            }
+        },
+        {
+            "ID": "f1804084-fa95-4017-987b-c06ac588800d",
+            "createdAt": "2024-04-25T06:30:27.411Z",
+            "createdBy": "anonymous",
+            "modifiedAt": "2024-04-25T06:30:27.411Z",
+            "modifiedBy": "anonymous",
+            "fName": "Navin",
+            "lName": "Deo",
+            "gender": "Male",
+            "DOB": "1980-01-14",
+            "age": 0,
+            "contractStarted": "2001-11-16",
+            "email": "Navin.Deo@xyz.com",
+            "phone": "8967654987",
+            "salary_ID": "76480d15-ec22-4cd5-b984-c889e12fd5e3",
+            "department_ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+            "designation_ID": "a029382f-6532-4089-9b3d-eefe54f0fa89",
+            "address": [
+                {
+                    "ID": "031b019a-826c-49f0-bf98-d212b7e2c84e",
+                    "city": "Hyderabad",
+                    "address": "Mahatma Gandhi Road",
+                    "pincode": 500003,
+                    "street": "MG Road",
+                    "landmark": "MG Road",
+                    "employee_ID": "f1804084-fa95-4017-987b-c06ac588800d"
+                }
+            ],
+            "salary": {
+                "ID": "76480d15-ec22-4cd5-b984-c889e12fd5e3",
+                "costToCompany": 600000.76,
+                "employeePf": 1287.78,
+                "employerPf": 1287.78,
+                "nps": 1000.98,
+                "vpf": 100.89
+            },
+            "department": {
+                "ID": "3e274a93-8681-4d89-9362-2a94f4089038",
+                "name": "SX/BSV-ES6",
+                "description": "SX/BSV-ES6",
+                "headCount": 23
+            },
+            "designation": {
+                "ID": "a029382f-6532-4089-9b3d-eefe54f0fa89",
+                "name": "Senior Architect",
+                "description": "Senior Architect",
+                "level": "52"
+            }
+        }
+    ]
+}

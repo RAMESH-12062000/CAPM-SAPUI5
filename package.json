@@ -1,0 +1,65 @@
+{
+    "name": "EMPLOYEE-SAP-CAP-MANAGED",
+    "version": "1.0.0",
+    "description": "A simple CAP project.",
+    "repository": "<Add your repository here>",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "@sap/cds": "^7",
+        "@sap/cds-hana": "^2",
+        "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+        "@sap/xssec": "^3.6.1",
+        "express": "^4",
+        "passport": "^0.7.0"
+    },
+    "devDependencies": {
+        "@cap-js/sqlite": "^1",
+        "@sap/cds-dk": "^7",
+        "@sap/ux-specification": "^1.120.8",
+        "rimraf": "^3.0.2"
+    },
+    "scripts": {
+        "start": "cds-serve",
+        "watch-employeedetails": "cds watch --open employeedetails/webapp/index.html?sap-ui-xx-viewCache=false",
+        "undeploy": "cf undeploy EMPLOYEE-SAP-CAP-MANAGED --delete-services --delete-service-keys --delete-service-brokers",
+        "build": "rimraf resources mta_archives && mbt build --mtar archive",
+        "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "[devlopment]": {
+                    "kind": "sqlite"
+                },
+                "[production]": {
+                    "kind": "hana"
+                }
+            },
+            "[production]": {
+                "auth": "xsuaa"
+            },
+            "[development]": {
+                "auth": {
+                    "kind": "mocked",
+                    "users": {
+                        "admin@sap.com": {
+                            "password": "Initial",
+                            "ID": "admin@sap.com",
+                            "roles": [
+                                "Admin"
+                            ]
+                        },
+                        "user@sap.com": {
+                            "password": "Initial",
+                            "ID": "user@sap.com",
+                            "roles": [
+                                "User"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

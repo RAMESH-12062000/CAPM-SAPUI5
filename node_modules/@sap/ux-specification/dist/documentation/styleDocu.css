@@ -1,0 +1,257 @@
+:root {
+    --vscode-foreground: #cccccc;
+    --vscode-font-family: 'Segoe WPC', 'Segoe UI', sans-serif;
+    --vscode-editor-background: #1e1e1e;
+    --vscode-editor-font-family: Consolas, 'Courier New', monospace;
+    --vscode-menubar-selectionBackground: rgba(255, 255, 255, 0.1);
+    --vscode-button-secondaryBackground: #3a3d41;
+    --vscode-button-secondaryHoverBackground: #45494e;
+    --vscode-button-foreground: #ffffff;
+    --vscode-button-background: #0e639c;
+    --vscode-button-hoverBackground: #1177bb;
+    --vscode-editorWidget-border: #454545;
+    --vscode-editorWidget-background: #252526;
+    --vscode-textLink-foreground: #3794ff;
+    --vscode-input-background: #3c3c3c;
+    --vscode-input-foreground: #cccccc;
+    --vscode-input-placeholderForeground: #a6a6a6;
+    --vscode-focusBorder: #007fd4;
+    --vscode-list-activeSelectionBackground: #094771;
+    --vscode-dropdown-background: #3c3c3c;
+    --vscode-icon-foreground: #c5c5c5;
+    --vscode-list-activeSelectionForeground: #ffffff;
+}
+#tree-container {
+    display: block;
+}
+input {
+    all: unset;
+}
+body {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    position: fixed;
+    background-color: var(--vscode-editor-background);
+    color: var(--vscode-foreground);
+    fill: var(--vscode-foreground);
+    font-size: 13px;
+    font-family: var(--vscode-font-family);
+}
+.node-text {
+    display: block;
+    line-height: 18px;
+    fill-opacity: 1e-6;
+}
+.node-text:focus,
+.tooltip:focus,
+#tooltip_close-button:focus {
+    outline: 1px solid var(--vscode-focusBorder);
+}
+.node-text:hover {
+    text-decoration: none;
+}
+.node-rect-text {
+    font-family: var(--vscode-editor-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+}
+.collapsed .node-circle {
+    fill: var(--vscode-button-background);
+    cursor: pointer;
+}
+.collapsed:hover circle {
+    fill: var(--vscode-button-hoverBackground);
+}
+.expanded .node-circle {
+    fill: var(--vscode-button-secondaryBackground);
+    cursor: pointer;
+}
+.expanded:hover circle {
+    fill: var(--vscode-button-secondaryHoverBackground);
+}
+.node-circle-text {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    fill: var(--vscode-button-foreground);
+    cursor: pointer;
+    height: 1em;
+}
+.link {
+    fill: none;
+    stroke: var(--vscode-editorWidget-border);
+    stroke-width: 1px;
+}
+.tooltip {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    padding: 10px 20px;
+    background: var(--vscode-editorWidget-background);
+    box-shadow: 0px 5px 12px 0 var(--vscode-widget-shadow);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: 1px solid var(--vscode-editorWidget-border);
+}
+.tip_type-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.tip_prop {
+    margin-top: -5px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.tip_desc {
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+}
+.tip_type,
+.tip_enums {
+    margin: 0px 10px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    color: var(--vscode-editorWidget-background);
+    background: var(--vscode-foreground);
+    border-radius: 10px;
+}
+.tip_control {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+}
+#tooltip_close-button {
+    margin-right: -10px;
+    margin-left: auto;
+    padding: 3px;
+    width: 16px;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#tooltip_close-button:hover {
+    background: var(--vscode-menubar-selectionBackground);
+}
+#search-container {
+    right: 20px;
+    top: 45px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid var(--vscode-editorWidget-border);
+    background-color: var(--vscode-input-background);
+    color: var(--vscode-input-placeholderForeground);
+    overflow-x: hidden;
+    font-size: 12px;
+}
+#search-input-container {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+#search-container:hover,
+#search-container:focus {
+    border: 1px solid var(--vscode-focusBorder);
+}
+#search-icon {
+    margin: auto;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+#search-close-icon {
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+#search-input {
+    padding-left: 5px;
+    flex: 1;
+}
+#search-result {
+    max-height: 100px;
+    padding: 0;
+    margin: 0;
+    color: var(--vscode-input-foreground);
+    border: 1px solid var(--vscode-focusBorder);
+    background-color: var(--vscode-dropdown-background);
+    list-style: none;
+    overflow-y: auto;
+    display: none;
+}
+li {
+    padding: 3.5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+li:hover {
+    background-color: var(--vscode-list-activeSelectionBackground);
+    color: var(--vscode-list-activeSelectionForeground);
+}
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--vscode-icon-foreground);
+}
+#button-container {
+    right: 20px;
+    top: 15px;
+    width: 200px;
+    position: absolute;
+}
+#resetTree,
+#expandTree {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    width: 90px;
+    text-align: center;
+    padding: 3px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#resetTree:hover,
+#expandTree:hover {
+    background-color: var(--vscode-button-hoverBackground);
+}
+#resetTree {
+    margin-right: 10px;
+    margin-left: -1px;
+}
+#expandTree {
+    margin-left: 10px;
+}
+input#search-input:focus,
+input#resetTree:focus,
+input#expandTree:focus {
+    outline: none;
+}
+#version-container {
+    position: absolute;
+    height: 15px;
+    left: 20px;
+    top: 15px;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 13px;
+    line-height: 15px;
+}

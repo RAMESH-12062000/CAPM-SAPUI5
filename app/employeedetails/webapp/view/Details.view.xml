@@ -1,0 +1,121 @@
+<mvc:View
+    xmlns:form="sap.ui.layout.form"
+    xmlns:uxap="sap.uxap"
+    controllerName="com.app.employeedetails.controller.Details"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <uxap:ObjectPageLayout
+        id="idEmployeeDetailsObjectPage"
+        upperCaseAnchorBar="true"
+    >
+        <uxap:headerTitle>
+            <uxap:ObjectPageDynamicHeaderTitle id="idObjectPageDynamicTitle">
+                <uxap:expandedHeading>
+                    <Title
+                        id="idEmployeeDetailsTitle"
+                        text="{fName} {lName}"
+                    />
+                </uxap:expandedHeading>
+                <uxap:actions>
+                    <Button
+                        id="idBtnDelete"
+                        icon="sap-icon://delete"
+                        tooltip="Delete Employee"
+                        type="Negative"
+                        press="onDeleteEmployee"
+                    />
+                </uxap:actions>
+            </uxap:ObjectPageDynamicHeaderTitle>
+        </uxap:headerTitle>
+        <uxap:sections>
+            <uxap:ObjectPageSection
+                titleUppercase="true"
+                id="generalInfo"
+                title="General Information"
+            >
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="idGeneralInfoSubSection">
+                        <uxap:blocks>
+                            <core:Fragment
+                                type="XML"
+                                fragmentName="com.app.employeedetails.fragments.GeneralInformation"
+                            />
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <!-- this is for Address Details section... -->
+            <uxap:ObjectPageSection
+                id="idAddressSection"
+                title="Address Details"
+                titleUppercase="true"
+            >
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="idAddressSubSection">
+                        <uxap:blocks>
+                            <core:Fragment
+                                type="XML"
+                                fragmentName="com.app.employeedetails.fragments.Address"
+                            />
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <!-- this is for Salary details section... -->
+            <uxap:ObjectPageSection
+                id="idSalarySection"
+                title="Salary Details"
+                titleUppercase="true"
+            >
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="idSalarySubSection">
+                        <uxap:blocks>
+                            <core:Fragment
+                                type="XML"
+                                fragmentName="com.app.employeedetails.fragments.Salary"
+                            />
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <!-- this is for Department section... -->
+            <uxap:ObjectPageSection
+                id="idDepartmentSection"
+                title="Department Details"
+                titleUppercase="true"
+            >
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="idDepartmentSubSection">
+                        <uxap:blocks>
+                            <core:Fragment
+                                type="XML"
+                                fragmentName="com.app.employeedetails.fragments.Department"
+                            />
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <!-- this is for Designation section... -->
+            <uxap:ObjectPageSection
+                id="idDesignationSection"
+                title="Designation Details"
+                titleUppercase="true"
+            >
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="idDesignationSubSection">
+                        <uxap:blocks>
+                            <core:Fragment
+                                type="XML"
+                                fragmentName="com.app.employeedetails.fragments.Designation"
+                            />
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+        </uxap:sections>
+    </uxap:ObjectPageLayout>
+</mvc:View>

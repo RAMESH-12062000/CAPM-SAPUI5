@@ -1,0 +1,41 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <form:SimpleForm
+        id="idDepartmentForm"
+        editable="false"
+        layout="ColumnLayout"
+        columnsM="2"
+        columnsL="3"
+        columnsXL="4"
+        binding="{department}"
+       
+    >
+        <Label
+            id="idnameLabel"
+            text="Name"
+        />
+        <Text
+            id="idnameText"
+            text="{name}"
+        />
+        <Label
+            id="iddiscriptionLabel"
+            text="Discription"
+        />
+        <Text
+            id="iddiscriptionText"
+            text="{description}"
+        />
+        <Label
+            id="idheadcountLabel"
+            text="HeadCount"
+        />
+        <Text
+            id="idheadcountText"
+            text="{headCount}"
+        />
+    </form:SimpleForm>
+</core:FragmentDefinition>

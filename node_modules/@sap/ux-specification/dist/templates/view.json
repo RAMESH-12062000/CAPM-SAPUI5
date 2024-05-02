@@ -1,0 +1,18 @@
+{
+  "Type": "sap.ui.core.mvc.JSONView",
+  "controllerName": "<%- controllerName %>",
+  "content": [
+    {
+      "Type": "sap.m.App",
+      "id": "app",
+      "pages": [
+        {
+          "Type": "sap.m.Page",
+          "id": "page",
+          "title": "<%= name %>",
+          "content": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m"
+	xmlns:l="sap.ui.layout">
+	<l:VerticalLayout <%- handler ? ' core:require="{handler: \'' + handler + '\'}"' : '' %>>
+		<Text text="<%= name %>" />
+		<%if (handler) { %><Button text="<%= name %>" press="handler.predefinedMethod" /><% } %>
+	</l:VerticalLayout>
+</core:FragmentDefinition>
